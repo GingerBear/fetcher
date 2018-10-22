@@ -10,7 +10,7 @@ var today = utils.datetime(new Date());
 var yesterday = utils.datetime(new Date()).subtract(1, 'days');
 var tomorrow = utils.datetime(new Date()).add(1, 'days');
 
-var datesToFetch = [today, yesterday, tomorrow];
+var datesToFetch = [yesterday, today, tomorrow];
 
 var datesGamesToFetch = Promise.all(
   datesToFetch.map(d => fetchGameWithVideoByDate(d.format('YYYYMMDD')))
