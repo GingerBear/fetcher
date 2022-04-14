@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "async": "^2.1.2",
+    "async": "^3.2.2",
     "cheerio": "^0.22.0",
     "dropbox": "^2.4.0",
     "lodash": "^4.16.6",
