@@ -7,7 +7,7 @@
     "cheerio": "^0.22.0",
     "dropbox": "^2.4.0",
     "lodash": "^4.16.6",
-    "moment": "^2.15.2",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.9",
     "request": "^2.78.0"
   }
